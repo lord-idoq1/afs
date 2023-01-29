@@ -50,6 +50,9 @@ class Userbot(Client):
             try:
                 await self.one.join_chat("GeezSupport")
                 await self.one.join_chat("ramsupportt")
+                await self.one.join_chat("FamilyAlarick")
+                await self.one.join_chat("kontenfilm")
+                await self.one.join_chat("AyaMusicLog")
             except:
                 pass
             assistants.append(1)
@@ -81,6 +84,9 @@ class Userbot(Client):
             try:
                 await self.one.join_chat("GeezSupport")
                 await self.one.join_chat("ramsupportt")
+                await self.one.join_chat("FamilyAlarick")
+                await self.one.join_chat("kontenfilm")
+                await self.one.join_chat("AyaMusicLog")
             except:
                 pass
             assistants.append(2)
@@ -112,6 +118,9 @@ class Userbot(Client):
             try:
                 await self.one.join_chat("GeezSupport")
                 await self.one.join_chat("ramsupportt")
+                await self.one.join_chat("FamilyAlarick")
+                await self.one.join_chat("kontenfilm")
+                await self.one.join_chat("AyaMusicLog")
             except:
                 pass
             assistants.append(3)
@@ -143,6 +152,9 @@ class Userbot(Client):
             try:
                 await self.one.join_chat("GeezSupport")
                 await self.one.join_chat("ramsupportt")
+                await self.one.join_chat("FamilyAlarick")
+                await self.one.join_chat("kontenfilm")
+                await self.one.join_chat("AyaMusicLog")
             except:
                 pass
             assistants.append(4)
@@ -174,6 +186,9 @@ class Userbot(Client):
             try:
                 await self.one.join_chat("GeezSupport")
                 await self.one.join_chat("ramsupportt")
+                await self.one.join_chat("FamilyAlarick")
+                await self.one.join_chat("kontenfilm")
+                await self.one.join_chat("AyaMusicLog")
             except:
                 pass
             assistants.append(5)
