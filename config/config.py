@@ -74,34 +74,34 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/d645269bfcf6b4e9223e9.png")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/b5fa050775543872ae0ec.png")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/d645269bfcf6b4e9223e9.png",
+    "https://telegra.ph/file/b5fa050775543872ae0ec.png",
 )
 
-PLAYLIST_IMG_URL = "https://telegra.ph/file/d645269bfcf6b4e9223e9.png"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/b5fa050775543872ae0ec.png"
 
-GLOBAL_IMG_URL = "https://telegra.ph/file/d645269bfcf6b4e9223e9.png"
+GLOBAL_IMG_URL = "https://telegra.ph/file/b5fa050775543872ae0ec.png"
 
-STATS_IMG_URL = "https://telegra.ph/file/d645269bfcf6b4e9223e9.png"
+STATS_IMG_URL = "https://telegra.ph/file/b5fa050775543872ae0ec.png"
 
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/d645269bfcf6b4e9223e9.png"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/b5fa050775543872ae0ec.png"
 
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/d645269bfcf6b4e9223e9.png"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/b5fa050775543872ae0ec.png"
 
-STREAM_IMG_URL = "https://telegra.ph/file/d645269bfcf6b4e9223e9.png"
+STREAM_IMG_URL = "https://telegra.ph/file/b5fa050775543872ae0ec.png"
 
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/d645269bfcf6b4e9223e9.png"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/b5fa050775543872ae0ec.png"
 
-YOUTUBE_IMG_URL = "https://telegra.ph/file/d645269bfcf6b4e9223e9.png"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/b5fa050775543872ae0ec.png"
 
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/d645269bfcf6b4e9223e9.png"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/b5fa050775543872ae0ec.png"
 
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/d645269bfcf6b4e9223e9.png"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/b5fa050775543872ae0ec.png"
 
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/d645269bfcf6b4e9223e9.png"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/b5fa050775543872ae0ec.png"
 
 
 def time_to_seconds(time):
