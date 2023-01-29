@@ -1,11 +1,11 @@
 # Bot Commands
-PING_COMMAND : ["mping", "malive"]
-START_COMMAND : ["start", "mstart"]
-HELP_COMMAND : ["help"]
-SETTINGS_COMMAND : ["settings", "setting"]
+PING_COMMAND : ["mping"]
+START_COMMAND : ["mstart"]
+HELP_COMMAND : ["mhelp"]
+SETTINGS_COMMAND : ["msettings"]
 RELOAD_COMMAND : ["admincache", "reload"]
 GSTATS_COMMAND : ["gstats", "globalstats"]
-STATS_COMMAND : ["stats"]
+STATS_COMMAND : ["mstats"]
 LANGUAGE_COMMAND : ["lang"]
 
 # Play Commands
@@ -41,9 +41,9 @@ RESTART_COMMAND : ["reboot"]
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["addsudo"]
-DELSUDO_COMMAND : ["delsudo", "rmsudo"]
-SUDOUSERS_COMMAND : ["sudolist", "listsudo", "sudoers", "sudo"]
+ADDSUDO_COMMAND : ["maddsudo"]
+DELSUDO_COMMAND : ["mdelsudo", "rmsudo"]
+SUDOUSERS_COMMAND : ["msudolist", "listsudo", "sudoers", "sudo"]
 
 #Broadcast 
 BROADCAST_COMMAND : ["broadcast", "gcast"]
@@ -89,8 +89,8 @@ BLOCKED_COMMAND : ["blockedusers", "blocked", "blusers"]
 SPEEDTEST_COMMAND : ["speedtest", "spt"]
 
 #Voice chat commands
-ACTIVEVC_COMMAND : ["activevoice", "activevc"]
-ACTIVEVIDEO_COMMAND : ["activevideo", "activev"]
+ACTIVEVC_COMMAND : ["activevoice", "vc"]
+ACTIVEVIDEO_COMMAND : ["activevideo", "vd"]
 
 #Gban Commands
 GBAN_COMMAND : ["gban"]
