@@ -14,25 +14,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     geez = math.floor(percentage)
     if 0 < geez <= 10:
-        bar = "◉—————————"
+        bar = "▮▯▯▯▯▯▯▯▯▯"
     elif 10 < geez < 20:
-        bar = "—◉————————"
+        bar = "▮▮▯▯▯▯▯▯▯▯"
     elif 20 <= geez < 30:
-        bar = "——◉———————"
+        bar = "▮▮▮▯▯▯▯▯▯▯"
     elif 30 <= geez < 40:
-        bar = "———◉——————"
+        bar = "▮▮▮▮▯▯▯▯▯▯"
     elif 40 <= geez < 50:
-        bar = "————◉—————"
+        bar = "▮▮▮▮▮▯▯▯▯▯"
     elif 50 <= geez < 60:
-        bar = "—————◉————"
+        bar = "▮▮▮▮▮▮▯▯▯▯"
     elif 60 <= geez < 70:
-        bar = "——————◉———"
+        bar = "▮▮▮▮▮▮▮▯▯▯"
     elif 70 <= geez < 80:
-        bar = "———————◉——"
+        bar = "▮▮▮▮▮▮▮▮▯▯"
     elif 80 <= geez < 95:
-        bar = "————————◉—"
+        bar = "▮▮▮▮▮▮▮▮▮▯"
     else:
-        bar = "—————————◉"
+        bar = "▮▮▮▮▮▮▮▮▮▮"
 
     buttons = [
         [
@@ -43,10 +43,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="Channel", url=config.SUPPORT_CHANNEL,
+                text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL,
             ),
             InlineKeyboardButton(
-                text="Geez|RAM", url=config.SUPPORT_GROUP
+                text="sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_GROUP
             ),
         ],
         [
@@ -64,25 +64,25 @@ def telegram_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     geez = math.floor(percentage)
     if 0 < geez <= 10:
-        bar = "◉—————————"
+        bar = "▮▯▯▯▯▯▯▯▯▯"
     elif 10 < geez < 20:
-        bar = "—◉————————"
+        bar = "▮▮▯▯▯▯▯▯▯▯"
     elif 20 <= geez < 30:
-        bar = "——◉———————"
+        bar = "▮▮▮▯▯▯▯▯▯▯"
     elif 30 <= geez < 40:
-        bar = "———◉——————"
+        bar = "▮▮▮▮▯▯▯▯▯▯"
     elif 40 <= geez < 50:
-        bar = "————◉—————"
+        bar = "▮▮▮▮▮▯▯▯▯▯"
     elif 50 <= geez < 60:
-        bar = "—————◉————"
+        bar = "▮▮▮▮▮▮▯▯▯▯"
     elif 60 <= geez < 70:
-        bar = "——————◉———"
+        bar = "▮▮▮▮▮▮▮▯▯▯"
     elif 70 <= geez < 80:
-        bar = "———————◉——"
+        bar = "▮▮▮▮▮▮▮▮▯▯"
     elif 80 <= geez < 95:
-        bar = "————————◉—"
+        bar = "▮▮▮▮▮▮▮▮▮▯"
     else:
-        bar = "—————————◉"
+        bar = "▮▮▮▮▮▮▮▮▮▮"
 
     buttons = [
         [
@@ -93,10 +93,10 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="Channel", url=config.SUPPORT_CHANNEL,
+                text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL,
             ),
             InlineKeyboardButton(
-                text="Geez|RAM", url=config.SUPPORT_GROUP
+                text="sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_GROUP
             ),
         ],
         [
@@ -112,10 +112,10 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="Channel", url=config.SUPPORT_CHANNEL,
+                text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL,
             ),
             InlineKeyboardButton(
-                text="Geez|RAM", url=config.SUPPORT_GROUP
+                text="sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_GROUP
             ),
         ],
         [
@@ -131,10 +131,10 @@ def telegram_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="Channel", url=config.SUPPORT_CHANNEL,
+                text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL,
             ),
             InlineKeyboardButton(
-                text="Geez|RAM", url=config.SUPPORT_GROUP
+                text="sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_GROUP
             ),
         ],
         [
@@ -276,10 +276,10 @@ def queue_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="Channel", url=config.SUPPORT_CHANNEL,
+                text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL,
             ),
             InlineKeyboardButton(
-                text="Geez|RAM", url=config.SUPPORT_GROUP
+                text="sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_GROUP
             ),
         ],
         [
