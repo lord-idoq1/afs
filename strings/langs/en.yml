@@ -1,3 +1,5 @@
+# Credits @Tonic880
+
 name : Indonesia
 
 # String Umum
@@ -204,8 +206,8 @@ lyrics_3 : "❌ Gagal mengambil lirik😭.\n\n💡**Mencoba Mencari:** {0}"
 lyrics_4 : "Klik tombol di bawah ini dan cari lirik untuk menghindari pencarian lirik jenis spam yang panjang."
 
 #Ping
-ping_1 : "Pong!!!!"
-ping_2 : "**Pong!**\n`⚡{1} ms`\n\n<b><u> System Stats:</u></b>\nUptime : {2} \nRam : {4} \nCpu : {4} \nDisk : {3}"
+ping_1 : "» ᴩɪɴɢɪɴɢ..."
+ping_2 : "**» ᴘᴏɴɢ**\n`๏ {0} ᴍs`\n\n<b><u>{1} sʏsᴛᴇᴍ sᴛᴀᴛs :</u></b>\n\n๏ ᴜᴩᴛɪᴍᴇ : {2} \n๏ ʀᴀᴍ : {3} \n๏ ᴄᴩᴜ : {4} \n๏ ᴅɪsᴋ : {5} \n๏ ᴩʏ-ᴛɢᴄᴀʟʟs : `{6} ᴍs`"
 
 
 # Lagu
@@ -225,14 +227,14 @@ song_11 : "Pengunggahan Dimulai\n\nKecepatan pengunggahan mungkin lambat. Harap 
 queue_1 : "Mohon Tunggu..Mengambil Antrian.."
 queue_2 : "Tidak ada trek di dalam Antrian."
 queue_3 : "<u>**Trek Antrian:</u>** [Lihat Trek Antrian Lainnya Dari Sini]({0})"
-queue_4 : "⏳ Ditambahkan ke Antrian di **#{0}\n\n📀 Judul:** {1}\n**⏰ Durasi:** {2}\n🧸 **Ditambahkan Oleh:** {3}"
+queue_4 : "⏳ Ditambahkan ke Antrian di **#{0}\n\n📀 Judul:** {1}\n**⏰ Durasi:** {2}\n👥 **Ditambahkan Oleh:** {3}"
 queue_5 : "Hanya satu track di dalam antrian, Silahkan tambahkan lagi untuk check list"
 
 # Semua Saluran Streaming
-stream_1 : "🎥 **Memulai Streaming** 💡\n\n🧸 **Diminta Oleh:** {0}\n📮 **Informasi: **[Di Sini]({1})"
-stream_2 : "🎥 **Memulai Streaming melalui URL** 💡\n\n**🧸 Diminta Oleh:** {0}"
-stream_3 : "🎥 **Memulai Streaming** 💡\n\n**📀 Judul:** {0}\n⏰ **Durasi**: {1}\n🧸 **Diminta Oleh:** {2} "
-stream_4 : "🎥 **Memulai Streaming** 💡\n\n**📀 Judul:** [{0}]({1})\n⏰ **Durasi**: {2}\n🧸 **Diminta Oleh:** {3}"
+stream_1 : "🎥 **Memulai Streaming** 💡\n\n👥 **Diminta Oleh:** {0}\n📄 **Informasi: **[Di Sini]({1})"
+stream_2 : "🎥 **Memulai Streaming melalui URL** 💡\n\n**👥 Diminta Oleh:** {0}"
+stream_3 : "🎥 **Memulai Streaming** 💡\n\n**📀 Judul:** {0}\n⏰ **Durasi**: {1}\n👥 **Diminta Oleh:** {2} "
+stream_4 : "🎥 **Memulai Streaming** 💡\n\n**📀 Judul:** [{0}]({1})\n⏰ **Durasi**: {2}\n👥 **Diminta Oleh:** {3}"
 
 # Tombol Sebaris
 
@@ -252,7 +254,7 @@ S_B_3 : "📨 Group"
 S_B_4 : "📨 Channel"
 S_B_5 : "✚ Tambahkan saya ke Grup Anda"
 S_B_6 : "💾 Git Repo"
-S_B_7 : "🧸 Pemilik Bot"
+S_B_7 : "🙋‍♂ Pemilik Bot"
 S_B_8 : "🗂 Menu Perintah"
 
 #Membantu
@@ -293,7 +295,7 @@ ST_B_2 : "🎥 Kualitas Video"
 ST_B_3 : "🎩 Pengguna Auth"
 ST_B_4 : "📱 Dasbor"
 ST_B_5 : "▶️ Mode Putar"
-ST_B_6 : "🏳️‍🌈 Bahasa"
+ST_B_6 : "🇮🇩 Bahasa"
 ST_B_7 : "🔄 Mode Bersih"
 ST_B_8 : "{0} Audio Kualitas Rendah"
 ST_B_9 : "{0} Audio Kualitas Sedang"
