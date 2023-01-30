@@ -25,13 +25,15 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Onlymeriz/KynanMusic
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com")
+
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/kontenfilm")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/FamilyAlarick")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "50000000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "50000000"))
 
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(
     getenv("ASSISTANT_LEAVE_TIME", "5400")
 )
