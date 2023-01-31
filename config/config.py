@@ -28,7 +28,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com")
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/kontenfilm")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/FamilyAlarick")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AyaMusicLog")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "50000000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "50000000"))
