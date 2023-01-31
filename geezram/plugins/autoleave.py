@@ -23,16 +23,16 @@ async def auto_leave():
                         if chat_type in [
                             "supergroup",
                             "supergroup",
-                            "supergroup",
                             "channel",
+                            "supergroup",
                         ]:
                             chat_id = i.chat.id
                             if (
                                 chat_id != config.LOG_GROUP_ID
                                 and chat_id != -1001692751821
                                 and chat_id != -1001459812644
-                                and chat_id != -1001640257827
                                 and chat_id != -1001818398503
+                                and chat_id != -1001640257827
                             ):
                                 if not await is_active_chat(chat_id):
                                     try:
