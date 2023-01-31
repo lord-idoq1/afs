@@ -54,7 +54,7 @@ root@~ $ bash start
 
 ## 🗂 License
 
-This project is licensed under the **GNU General Public License v3**. All designs were created by [@Toni880](https://github.com/Toni880) .
+This project is licensed under the **GNU General Public License v3**. All designs were created by [Kynan](https://t.me/Riizzvbss) .
 
 See [LICENSE](../LICENSE) for more information.
 
