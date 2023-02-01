@@ -46,7 +46,9 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="ᴍᴇɴᴜ",
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
-            InlineKeyboardButton(text="ᴅᴏɴᴀsɪ ❤️", url=f"{config.OWNER_ID}")
+            InlineKeyboardButton(
+                text="ᴅᴏɴᴀsɪ ❤️", url=f"{config.OWNER_ID}"
+            )
         ],
         [
             InlineKeyboardButton(
@@ -89,9 +91,6 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text=f"{played} {bar} {dur}",
                 callback_data="GetTimer",
             )
-        ],
-        [
-            InlineKeyboardButton(text="ᴅᴏɴᴀsɪ ❤️", url=f"{config.OWNER_ID}")
         ],
         [
             InlineKeyboardButton(
@@ -178,7 +177,9 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
             ),
         ],
         [
-            InlineKeyboardButton(text="ᴅᴏɴᴀsɪ ❤️", url=f"{config.OWNER_ID}"),
+            InlineKeyboardButton(
+                text="ᴅᴏɴᴀsɪ ❤️", url=f"{config.OWNER_ID}"
+            ),
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
@@ -202,7 +203,9 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
             ),
         ],
         [
-            InlineKeyboardButton(text="ᴅᴏɴᴀsɪ ❤️", url=f"{config.OWNER_ID}"),
+            InlineKeyboardButton(
+                text="ᴅᴏɴᴀsɪ ❤️", url=f"{config.OWNER_ID}"
+            ),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
@@ -284,7 +287,9 @@ def panel_markup_1(_, videoid, chat_id):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="ᴅᴏɴᴀsɪ ❤️", url=f"{config.OWNER_ID}")
+            InlineKeyboardButton(
+                text="ᴅᴏɴᴀsɪ ❤️", url=f"{config.OWNER_ID}"
+            ),
         ],
         [
             InlineKeyboardButton(
@@ -307,11 +312,8 @@ def panel_markup_1(_, videoid, chat_id):
 def queue_markup(_, videoid, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="ᴅᴏɴᴀsɪ ❤️", url=f"{config.OWNER_ID}")
-        ],
-        [
             InlineKeyboardButton(
-                text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL
+                text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL,
             ),
             InlineKeyboardButton(
                 text="sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_GROUP
