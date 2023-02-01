@@ -62,7 +62,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="ᴅᴏɴᴀsɪ ❤️", url=f"{config.SUPPORT_GROUP}"
+                text="ᴅᴏɴᴀsɪ ❤️", url="t.me/Riizzvbss"
             )
         ],
         [
@@ -209,7 +209,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         [
             InlineKeyboardButton(
                 text="ᴅᴏɴᴀsɪ ❤️",
-                url=f"{config.SUPPORT_GROUP}",
+                url="t.me/Riizzvbss",
             ),
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"],
@@ -236,7 +236,7 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         [
             InlineKeyboardButton(
                 text="ᴅᴏɴᴀsɪ ❤️",
-                url=f"{config.SUPPORT_GROUP}",
+                url="t.me/Riizzvbss",
             ),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
@@ -321,7 +321,7 @@ def panel_markup_1(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text="ᴅᴏɴᴀsɪ ❤️",
-                url=f"{config.SUPPORT_GROUP}",
+                url="t.me/Riizzvbss",
             ),
         ],
         [
