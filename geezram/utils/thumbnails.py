@@ -56,7 +56,7 @@ async def gen_thumb(videoid):
                     duration = result["duration"]
                 except:
                     duration = "Unknown Mins"
-                result["thumbnails"][0]["url"].split("?")[0]
+                thumbnail = result["thumbnails"][0]["url"].split("?")[0]
                 try:
                     views = result["viewCount"]["short"]
                 except:
@@ -83,7 +83,7 @@ async def gen_thumb(videoid):
             background = enhancer.enhance(0.6)
             image2 = background
                                                                                             
-            circle = Image.open("geezram/assets/circle.png")
+            circle = Image.open("assets/circle.png")
 
             # changing circle color
             im = circle
@@ -115,13 +115,13 @@ async def gen_thumb(videoid):
             image2.paste(circle, (0,0), mask = circle)
 
             # fonts
-            font1 = ImageFont.truetype('geezram/assets/font.ttf', 30)
-            font2 = ImageFont.truetype('geezram/assets/font2.ttf', 70)
-            font3 = ImageFont.truetype('geezram/assets/font2.ttf', 40)
-            font4 = ImageFont.truetype('geezram/assets/font2.ttf', 35)
+            font1 = ImageFont.truetype('assets/font.ttf', 30)
+            font2 = ImageFont.truetype('assets/font2.ttf', 70)
+            font3 = ImageFont.truetype('assets/font2.ttf', 40)
+            font4 = ImageFont.truetype('assets/font2.ttf', 35)
 
             image4 = ImageDraw.Draw(image2)
-            image4.text((10, 10), "Managed by izzy", fill="white", font = font1, align ="left") 
+            image4.text((10, 10), "Managed by Kynan", fill="white", font = font1, align ="left") 
             image4.text((670, 150), "NOW PLAYING", fill="white", font = font2, stroke_width=2, stroke_fill="white", align ="left") 
 
             # title
@@ -194,7 +194,7 @@ async def gen_qthumb(videoid):
             background = enhancer.enhance(0.6)
             image2 = background
                                                                                             
-            circle = Image.open("geezram/assets/circle.png")
+            circle = Image.open("assets/circle.png")
 
             # changing circle color
             im = circle
@@ -226,13 +226,13 @@ async def gen_qthumb(videoid):
             image2.paste(circle, (0,0), mask = circle)
 
             # fonts
-            font1 = ImageFont.truetype('geezram/assets/font.ttf', 30)
-            font2 = ImageFont.truetype('geezram/assets/font2.ttf', 70)
-            font3 = ImageFont.truetype('geezram/assets/font2.ttf', 40)
-            font4 = ImageFont.truetype('geezram/assets/font2.ttf', 35)
+            font1 = ImageFont.truetype('assets/font.ttf', 30)
+            font2 = ImageFont.truetype('assets/font2.ttf', 70)
+            font3 = ImageFont.truetype('assets/font2.ttf', 40)
+            font4 = ImageFont.truetype('assets/font2.ttf', 35)
 
             image4 = ImageDraw.Draw(image2)
-            image4.text((10, 10), "managed by izzy", fill="white", font = font1, align ="left") 
+            image4.text((10, 10), "managed by Kynan", fill="white", font = font1, align ="left") 
             image4.text((670, 150), "ADDED TO QUEUE", fill="white", font = font2, stroke_width=2, stroke_fill="white", align ="left") 
 
             # title
