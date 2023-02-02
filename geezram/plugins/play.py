@@ -7,7 +7,7 @@ from pyrogram.types import (InlineKeyboardMarkup, InputMediaPhoto,
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from config import BANNED_USERS, lyrical
+from config import BANNED_USERS, lyrical, MUST_JOIN
 from strings import get_command
 from geezram import (Apple, Resso, SoundCloud, Spotify, Telegram,
                         YouTube, app)
