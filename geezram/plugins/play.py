@@ -28,7 +28,6 @@ from pyrogram.errors import ChatAdminRequired, ChatWriteForbidden, UserNotPartic
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from geezram import app
-from geezram.config import MUST_JOIN
 
 
 def subcribe(func):
