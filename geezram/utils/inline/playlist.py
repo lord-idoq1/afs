@@ -14,7 +14,7 @@ def botplaylist_markup(_):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data="close"
+                text="ᴄʟᴏsᴇ", callback_data="close"
             ),
         ],
     ]
@@ -25,7 +25,7 @@ def top_play_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ᴛᴏᴘ 10 ᴘʟᴀʏʟɪsᴛs", callback_data="SERVERTOP"
+                text="ᴛᴏᴘ ➉ ᴘʟᴀʏʟɪsᴛs", callback_data="SERVERTOP"
             )
         ],
         [
@@ -79,7 +79,7 @@ def top_play_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ᴛᴏᴘ 10 ᴘʟᴀʏʟɪsᴛs", callback_data="SERVERTOP"
+                text="ᴛᴏᴘ ➉ ᴘʟᴀʏʟɪsᴛs", callback_data="SERVERTOP"
             )
         ],
         [
@@ -151,7 +151,7 @@ def close_markup(_):
         [
             [
                 InlineKeyboardButton(
-                    text="✯ ᴄʟᴏsᴇ ✯",
+                    text="ᴄʟᴏsᴇ",
                     callback_data="close",
                 ),
             ]
