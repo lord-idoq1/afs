@@ -14,25 +14,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     geez = math.floor(percentage)
     if 0 < geez <= 10:
-        bar = "◉○○○○○○○○○"
+        bar = "◉—————————"
     elif 10 < geez < 20:
-        bar = "◉◉○○○○○○○○"
+        bar = "—◉————————"
     elif 20 <= geez < 30:
-        bar = "◉◉◉○○○○○○○"
+        bar = "——◉———————"
     elif 30 <= geez < 40:
-        bar = "◉◉◉◉○○○○○○"
+        bar = "———◉——————"
     elif 40 <= geez < 50:
-        bar = "◉◉◉◉◉○○○○○"
+        bar = "————◉—————"
     elif 50 <= geez < 60:
-        bar = "◉◉◉◉◉◉○○○○"
+        bar = "—————◉————"
     elif 60 <= geez < 70:
-        bar = "◉◉◉◉◉◉◉○○○"
+        bar = "——————◉———"
     elif 70 <= geez < 80:
-        bar = "◉◉◉◉◉◉◉◉○○"
+        bar = "———————◉——"
     elif 80 <= geez < 95:
-        bar = "◉◉◉◉◉◉◉◉◉○"
+        bar = "————————◉—"
     else:
-        bar = "◉◉◉◉◉◉◉◉◉◉"
+        bar = "—————————◉"
 
     buttons = [
         [
@@ -65,25 +65,25 @@ def telegram_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     geez = math.floor(percentage)
     if 0 < geez <= 10:
-        bar = "◉○○○○○○○○○"
+        bar = "◉—————————"
     elif 10 < geez < 20:
-        bar = "◉◉○○○○○○○○"
+        bar = "—◉————————"
     elif 20 <= geez < 30:
-        bar = "◉◉◉○○○○○○○"
+        bar = "——◉———————"
     elif 30 <= geez < 40:
-        bar = "◉◉◉◉○○○○○○"
+        bar = "———◉——————"
     elif 40 <= geez < 50:
-        bar = "◉◉◉◉◉○○○○○"
+        bar = "————◉—————"
     elif 50 <= geez < 60:
-        bar = "◉◉◉◉◉◉○○○○"
+        bar = "—————◉————"
     elif 60 <= geez < 70:
-        bar = "◉◉◉◉◉◉◉○○○"
+        bar = "——————◉———"
     elif 70 <= geez < 80:
-        bar = "◉◉◉◉◉◉◉◉○○"
+        bar = "———————◉——"
     elif 80 <= geez < 95:
-        bar = "◉◉◉◉◉◉◉◉◉○"
+        bar = "————————◉—"
     else:
-        bar = "◉◉◉◉◉◉◉◉◉◉"
+        bar = "—————————◉"
 
     buttons = [
         [
@@ -237,7 +237,7 @@ def slider_markup(
         ],
         [
             InlineKeyboardButton(
-                text="⪻",
+                text="⩹",
                 callback_data=f"slider B|{query_type}|{query}|{user_id}|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
@@ -245,7 +245,7 @@ def slider_markup(
                 callback_data=f"forceclose {query}|{user_id}",
             ),
             InlineKeyboardButton(
-                text="⪼",
+                text="⩺",
                 callback_data=f"slider F|{query_type}|{query}|{user_id}|{channel}|{fplay}",
             ),
         ],
@@ -278,7 +278,7 @@ def panel_markup_1(_, videoid, chat_id):
                 text="II", callback_data=f"ADMIN Pause|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
+                text="▷▷I", callback_data=f"ADMIN Skip|{chat_id}"
             ),
             InlineKeyboardButton(
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
