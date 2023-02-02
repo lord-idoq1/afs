@@ -24,11 +24,52 @@ from geezram.utils.inline.play import (livestream_markup,
 from geezram.utils.inline.playlist import botplaylist_markup
 from geezram.utils.logger import play_logs
 from geezram.utils.stream.stream import stream
+from pyrogram.errors import ChatAdminRequired, ChatWriteForbidden, UserNotParticipant
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
+
+from geezram import app
+from geezram.config import MUST_JOIN
+
+
+def subcribe(func):
+    async def wrapper(_, message: Message):
+        user_id = message.from_user.id
+        user_name = message.from_user.first_name
+        rpk = "[" + user_name + "](tg://user?id=" + str(user_id) + ")"
+        if not MUST_JOIN:  # Not compulsory
+            return
+        try:
+            try:
+                await app.get_chat_member(MUST_JOIN, message.from_user.id)
+            except UserNotParticipant:
+                if MUST_JOIN.isalpha():
+                    link = "https://t.me/" + MUST_JOIN
+                else:
+                    chat_info = await app.get_chat(MUST_JOIN)
+                    chat_info.invite_link
+                try:
+                    await message.reply(
+                        f"**ʜᴀʟʟᴏ {rpk}. ᴀɢᴀʀ ʙɪsᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ ᴀɴᴅᴀ ʜᴀʀᴜs ᴍᴀsᴜᴋ ᴋᴇ ᴄʜᴀɴɴᴇʟ ᴜᴘᴅᴀᴛᴇs ʙᴏᴛ ᴛᴇʀʟᴇʙɪʜ ᴅᴀʜᴜʟᴜ!. sɪʟᴀʜᴋᴀɴ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴊᴏɪɴ ᴋᴇ ᴄʜᴀɴɴᴇʟ ᴜᴘᴅᴀᴛᴇ**",
+                        disable_web_page_preview=True,
+                        reply_markup=InlineKeyboardMarkup(
+                            [[InlineKeyboardButton("🏷 Join Channel", url=link)]]
+                        ),
+                    )
+                    await message.stop_propagation()
+                except ChatWriteForbidden:
+                    pass
+        except ChatAdminRequired:
+            await message.reply(
+                f"Saya bukan admin di chat MUST_JOIN chat : {MUST_JOIN} !"
+            )
+        return await func(_, message)
+
+    return wrapper
+
+CHANNEL_ID = -1001818398503
 
 # Command
 PLAY_COMMAND = get_command("PLAY_COMMAND")
-
-
 @app.on_message(
     filters.command(PLAY_COMMAND)
     & filters.group
@@ -36,6 +77,7 @@ PLAY_COMMAND = get_command("PLAY_COMMAND")
     & ~BANNED_USERS
 )
 @PlayWrapper
+@subcribe
 async def play_commnd(
     client,
     message: Message,
