@@ -52,7 +52,7 @@ def subcribe(func):
                 if OWNER_USERNAME.isalpha():
                     link2 = "https://t.me/" + OWNER_USERNAME
                 else:
-                   user_id = await app.get_users(OWNER_USERNAME)
+                    user_id = await app.get_users(OWNER_USERNAME)
                     user_id.get_users
                 try:
                     await message.reply(
