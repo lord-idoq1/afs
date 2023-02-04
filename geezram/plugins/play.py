@@ -1,3 +1,5 @@
+
+
 import random
 import string
 
@@ -43,15 +45,18 @@ def subcribe(func):
             except UserNotParticipant:
                 if MUST_JOIN.isalpha():
                     link = "https://t.me/" + MUST_JOIN
+                    link2 = "https://t.me/t.me/Riizzvbss"
                 else:
                     chat_info = await app.get_chat(MUST_JOIN)
                     chat_info.invite_link
                 try:
                     await message.reply(
-                        f"**ʜᴀʟʟᴏ {rpk}. ᴀɢᴀʀ ʙɪsᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ ᴀɴᴅᴀ ʜᴀʀᴜs ᴍᴀsᴜᴋ ᴋᴇ ᴄʜᴀɴɴᴇʟ ᴜᴘᴅᴀᴛᴇs ʙᴏᴛ ᴛᴇʀʟᴇʙɪʜ ᴅᴀʜᴜʟᴜ!. sɪʟᴀʜᴋᴀɴ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴊᴏɪɴ ᴋᴇ ᴄʜᴀɴɴᴇʟ ᴜᴘᴅᴀᴛᴇ**",
+                        f"**ʜᴀʟʟᴏ {rpk}. ᴀɢᴀʀ ʙɪsᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ ᴀɴᴅᴀ ʜᴀʀᴜs sғs ᴋᴇ ᴄʜᴀɴɴᴇʟ ᴛᴇʀʟᴇʙɪʜ ᴅᴀʜᴜʟᴜ!. sɪʟᴀʜᴋᴀɴ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴊᴏɪɴ ᴋᴇ ᴄʜᴀɴɴᴇʟ . sғs ʙᴀᴄᴋ sɪʟᴀᴋᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ ❤️**",
                         disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
-                            [[InlineKeyboardButton("🏷 Join Channel", url=link)]]
+                            [[InlineKeyboardButton("❤️ Join Channel", url=link)]]
+                        ),
+                            [[InlineKeyboardButton("Owner ❤️", url=link2)]]
                         ),
                     )
                     await message.stop_propagation()
