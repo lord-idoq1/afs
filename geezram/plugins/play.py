@@ -56,10 +56,7 @@ def subcribe(func):
                         f"**ʜᴀʟʟᴏ {rpk}. ᴀɢᴀʀ ʙɪsᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ ᴀɴᴅᴀ ʜᴀʀᴜs sғs ᴋᴇ ᴄʜᴀɴɴᴇʟ ᴛᴇʀʟᴇʙɪʜ ᴅᴀʜᴜʟᴜ!. sɪʟᴀʜᴋᴀɴ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴊᴏɪɴ ᴋᴇ ᴄʜᴀɴɴᴇʟ . sғs ʙᴀᴄᴋ sɪʟᴀᴋᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ ❤️**",
                         disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
-                            [
-                              InlineKeyboardButton("❤️ Join Channel", url=link),
-                              InlineKeyboardButton("Owner ❤️", url=link2),
-                            ],
+                            [[InlineKeyboardButton("❤️ Join Channel", url=link), InlineKeyboardButton("Owner ❤️", url=link2)]]
                         ),
                     )
                     await message.stop_propagation()
