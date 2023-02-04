@@ -49,6 +49,8 @@ def subcribe(func):
                 else:
                     chat_info = await app.get_chat(MUST_JOIN)
                     chat_info.invite_link
+                    chat_info = await app.get_chat(OWNER_USERNAME)
+                    chat_info.invite_link
                 try:
                     await message.reply(
                         f"**ʜᴀʟʟᴏ {rpk}. ᴀɢᴀʀ ʙɪsᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ ᴀɴᴅᴀ ʜᴀʀᴜs sғs ᴋᴇ ᴄʜᴀɴɴᴇʟ ᴛᴇʀʟᴇʙɪʜ ᴅᴀʜᴜʟᴜ!. sɪʟᴀʜᴋᴀɴ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴊᴏɪɴ ᴋᴇ ᴄʜᴀɴɴᴇʟ . sғs ʙᴀᴄᴋ sɪʟᴀᴋᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ ❤️**",
