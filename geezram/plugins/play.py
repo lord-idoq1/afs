@@ -42,15 +42,18 @@ def subcribe(func):
         try:
             try:
                 await app.get_chat_member(MUST_JOIN, message.from_user.id)
+                await app.get_chat_member(OWNER_USERNAME, message.from_user.id)
             except UserNotParticipant:
                 if MUST_JOIN.isalpha():
                     link = "https://t.me/" + MUST_JOIN
-                    link2 = "https://t.me/" + OWNER_USERNAME
                 else:
                     chat_info = await app.get_chat(MUST_JOIN)
                     chat_info.invite_link
-                    chat_info = await app.get_chat(OWNER_USERNAME)
-                    chat_info.invite_link
+                if OWNER_USERNAME.isalpha():
+                    link2 = "https://t.me/" + OWNER_USERNAME
+                else:
+                   user_id = await app.get_users(OWNER_USERNAME)
+                    user_id.get_users
                 try:
                     await message.reply(
                         f"**ʜᴀʟʟᴏ {rpk}. ᴀɢᴀʀ ʙɪsᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ ᴀɴᴅᴀ ʜᴀʀᴜs sғs ᴋᴇ ᴄʜᴀɴɴᴇʟ ᴛᴇʀʟᴇʙɪʜ ᴅᴀʜᴜʟᴜ!. sɪʟᴀʜᴋᴀɴ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴊᴏɪɴ ᴋᴇ ᴄʜᴀɴɴᴇʟ . sғs ʙᴀᴄᴋ sɪʟᴀᴋᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ ❤️**",
