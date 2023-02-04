@@ -9,7 +9,7 @@ from pyrogram.types import (InlineKeyboardMarkup, InputMediaPhoto,
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from config import BANNED_USERS, lyrical, MUST_JOIN
+from config import BANNED_USERS, lyrical, MUST_JOIN, OWNER_USERNAME
 from strings import get_command
 from geezram import (Apple, Resso, SoundCloud, Spotify, Telegram,
                         YouTube, app)
@@ -30,8 +30,6 @@ from pyrogram.errors import ChatAdminRequired, ChatWriteForbidden, UserNotPartic
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from geezram import app
-
-OWNER_USERNAME = Riizzvbss
 
 
 def subcribe(func):
