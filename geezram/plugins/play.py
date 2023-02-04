@@ -55,7 +55,6 @@ def subcribe(func):
                         disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
                             [[InlineKeyboardButton("❤️ Join Channel", url=link)]]
-                        ),
                             [[InlineKeyboardButton("Owner ❤️", url=link2)]]
                         ),
                     )
