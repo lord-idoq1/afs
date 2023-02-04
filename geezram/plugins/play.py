@@ -31,6 +31,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from geezram import app
 
+OWNER_USERNAME = Riizzvbss
+
 
 def subcribe(func):
     async def wrapper(_, message: Message):
