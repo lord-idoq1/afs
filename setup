@@ -1,4 +1,5 @@
 #!/bin/bash
+### Kynan Music Bot Installer
 
 pprint (){
 	cred='\033[0;31m'
@@ -51,7 +52,7 @@ packages(){
 			pprint "SUCCESS.\n\n" "cgreen"
 		else
 			pprint "FAIL.\n\n" "cred"
-			pprint "You need to install ffmpeg manually in order to deploy IzzyMusik, exiting..\n" "cblue"
+			pprint "You need to install ffmpeg manually in order to deploy Kynan Music, exiting..\n" "cblue"
 			exit 1
 		fi
 	fi
@@ -74,8 +75,7 @@ node(){
 
 repo(){
 	# Get git repo if the installer is runned standalone
-	[[ ! "izzymusik" == $(basename -s .git `git config --get remote.origin.url`) ]]
-}
+	[[ ! "KynanMusic" == $(basename -s .git `git config --get remote.origin.url`) ]]
 
 
 installation(){
@@ -88,11 +88,11 @@ installation(){
 }
 
 clear
-pprint "Welcome to izzymusik Setup Installer\n\n"
+pprint "Welcome to Kynan Music Setup Installer\n\n"
 pprint "If you see any error during Installation Process, Please refer to these files for logs: "
 pprint "\nFor node js errors , Checkout nodelog.txt"
 pprint "\nFor pypi packages errors , Checkout pypilog.txt"
-sleep 1
+sleep 2
 pprint "\n\nScript needs sudo privileges in order to update & install packages.\n"
 sudo test
 
@@ -101,8 +101,8 @@ packages
 node
 repo
 installation
-pprint "\n\n\n\n\nizzymusik Installation Completed!" "cgreen"
-sleep 1
+pprint "\n\n\n\n\nKynan Music Installation Completed!" "cgreen"
+sleep 4
 clear
 
 pprint "\nEnter Your Values Below\n\n\n"
@@ -130,6 +130,6 @@ MUSIC_BOT_NAME = $mbt
 STRING_SESSION = $string_session
 OWNER_ID = $ownid""" > .env
 clear
-pprint "\n\n\nYour Vars have been saved Successfully!, Thanks for using izzymusik Installer, now you can proceed by starting the bot with bash start!"
+pprint "\n\n\nYour Vars have been saved Successfully!, Thanks for using KynanMusic Installer, now you can proceed by starting the bot with bash start!"
 pprint "\n\n\nWant more vars?"
 pprint "\nCheckout config.py and readme.md inside config folder for addtional vars. You can change all images , Thumbs, mode and everything from vars. Have a look towards them\n\n"
