@@ -11,7 +11,7 @@ def queue_markup(
     played: Union[bool, int] = None,
     dur: Union[bool, int] = None,
 ):
-	played_sec = time_to_seconds(played)
+    played_sec = time_to_seconds(played)
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
     geez = math.floor(percentage)
