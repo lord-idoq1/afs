@@ -11,7 +11,7 @@ TEMP_MONGODB = "mongodb+srv://cosmos:cosmos@cluster0.uogfqlw.mongodb.net/?retryW
 
 if config.MONGO_DB_URI is None:
     LOGGER(__name__).warning(
-        "No MONGO DB URL found.. Your Bot will work on Prime's Database"
+        "No MONGO DB URL found.. Your Bot will work on Kynan Database"
     )
     temp_client = Client(
         "Aya",
