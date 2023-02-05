@@ -172,8 +172,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.four.join_chat("kynansupport")
-                await self.four.join_chat("kontenfilm")
+                await self.five.join_chat("kynansupport")
+                await self.five.join_chat("kontenfilm")
             except:
                 pass
             assistants.append(5)
