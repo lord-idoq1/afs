@@ -58,11 +58,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="ᴍᴇɴᴜ",
-                callback_data=f"PanelMarkup {videoid}|{chat_id}",
+                text="ᴊᴀsᴀ ʙᴏᴛ",
+                url="t.me/Riizzvbss",
             ),
             InlineKeyboardButton(
-                text="ᴅᴏɴᴀsɪ ❤️", url="t.me/Riizzvbss"
+                text="sᴜᴘᴘᴏʀᴛ️", url="https://t.me/kynansupport"
             )
         ],
         [
@@ -208,7 +208,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="ᴅᴏɴᴀsɪ ❤️",
+                text="ᴊᴀsᴀ ʙᴏᴛ",
                 url="t.me/Riizzvbss",
             ),
             InlineKeyboardButton(
@@ -235,7 +235,7 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="ᴅᴏɴᴀsɪ ❤️",
+                text="ᴊᴀsᴀ ʙᴏᴛ",
                 url="t.me/Riizzvbss",
             ),
             InlineKeyboardButton(
@@ -320,7 +320,7 @@ def panel_markup_1(_, videoid, chat_id):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="ᴅᴏɴᴀsɪ ❤️",
+                text="ᴊᴀsᴀ ʙᴏᴛ",
                 url="t.me/Riizzvbss",
             ),
         ],
