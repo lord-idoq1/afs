@@ -1,12 +1,12 @@
 {
-    "name": "musik izzy",
+    "name": "Kynan Music",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/56d1760224589ee370186.jpg",
+    "logo": "https://telegra.ph/file/efea9a7c62a7050848499.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "geezram",
+    "KynanMusic",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
@@ -77,7 +77,7 @@
       "formation": {
           "worker": {
               "quantity": 1,
-              "size": "eco"
+              "size": "basic"
           }
       },
       "stack": "container"
