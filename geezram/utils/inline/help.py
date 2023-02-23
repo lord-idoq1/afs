@@ -99,7 +99,7 @@ def help_back_markup(_):
                 ),
                 InlineKeyboardButton(
                 text="ᴅᴏɴᴀsɪ ❤️",
-                url="t.me/Riizzvbss",
+                url="t.me/NothingWibusoft",
                 ),
                 InlineKeyboardButton(
                     text="sᴜᴩᴩᴏʀᴛ", url=SUPPORT_GROUP
