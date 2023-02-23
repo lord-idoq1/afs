@@ -59,10 +59,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text="ᴊᴀsᴀ ʙᴏᴛ",
-                url="t.me/Riizzvbss",
+                url="t.me/NothingWibusoft",
             ),
             InlineKeyboardButton(
-                text="sᴜᴘᴘᴏʀᴛ️", url="https://t.me/kynansupport"
+                text="sᴜᴘᴘᴏʀᴛ️", url="https://t.me/+vpGZKznd9n83MjE1"
             )
         ],
         [
@@ -209,7 +209,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         [
             InlineKeyboardButton(
                 text="ᴊᴀsᴀ ʙᴏᴛ",
-                url="t.me/Riizzvbss",
+                url="t.me/NothingWibusoft",
             ),
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"],
@@ -236,7 +236,7 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         [
             InlineKeyboardButton(
                 text="ᴊᴀsᴀ ʙᴏᴛ",
-                url="t.me/Riizzvbss",
+                url="t.me/NothingWibusoft",
             ),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
@@ -321,7 +321,7 @@ def panel_markup_1(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text="ᴊᴀsᴀ ʙᴏᴛ",
-                url="t.me/Riizzvbss",
+                url="t.me/NothingWibusoft",
             ),
         ],
         [
