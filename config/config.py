@@ -12,12 +12,12 @@ API_HASH = getenv("API_HASH")
 
 BOT_TOKEN = getenv("BOT_TOKEN")
 MUST_JOIN = getenv("MUST_JOIN", "kontenfilm")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Riizzvbss")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "PoenyaBee")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ҡʏɴλɴ ꭙ ꝛᴏʙᴏᴛ")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "༻sᴇx ᴇᴠᴏʟᴜᴛɪᴏɴ༺")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "951454060").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5857516565").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -28,8 +28,8 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com")
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/kontenfilm")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/kynansupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/IdoganzStore")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+vpGZKznd9n83MjE1")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "50000000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "50000000"))
